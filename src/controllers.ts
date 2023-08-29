@@ -50,7 +50,6 @@ export const getGroups = async (_: Request, res: Response) => {
   }
 };
 
-
 // Gets top 10 most active groups. i.e groups with most posts
 export const getMostActiveGroups = async (_: Request, res: Response) => {
   try {
