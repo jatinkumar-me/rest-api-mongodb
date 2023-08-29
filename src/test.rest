@@ -1,0 +1,29 @@
+//API Tests for Vim-Rest-Client
+
+http://localhost:3000
+POST /groups
+{
+  "groupName": "Random group"
+}
+
+
+http://localhost:3000
+GET /groups
+
+http://localhost:3000
+GET /posts
+
+
+http://localhost:3000
+POST /posts
+{
+    "groupId": "64edca660fe21a3fb97503f7",
+    "content": "Random post placeholder"
+}
+
+
+// The required endpoint for getting top ten most active groups
+http://localhost:3000
+GET /groups/most-active
+
+
